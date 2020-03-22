@@ -1,0 +1,7 @@
+{
+  "name": "SlayerUtilities",
+  "author": "Marti157 & Antonio32A",
+  "entry": "index.js",
+  "description": "Multiple utilities for Hypixel SkyBlock and slayers.",
+  "version": "0.0.1"
+}
