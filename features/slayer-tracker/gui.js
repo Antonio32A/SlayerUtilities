@@ -10,10 +10,10 @@ export default class SlayerTrackerGUI {
 
         register("tick", () => {
             this.timer++;
-            if ((this.timer % 200) == 0) {
+            if (this.timer % 200 === 0) {
                 this.rainbow++;
             }
-        });
+        }
     }
 
     prettyNumber(x) {

@@ -1,4 +1,4 @@
-import RingSelector from "RingSelector/index";
+import RingSelector from "RingSelector";
 import { data } from "./tracker.js";
 
 const selector = new RingSelector({
