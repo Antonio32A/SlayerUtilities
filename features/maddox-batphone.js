@@ -7,6 +7,6 @@ export default class MaddoxBatphone {
                 command = part.getClickValue().substring(1); //remove the first character since it's a /
                 ChatLib.command(command);
             }
-        });
+        }
     }
 }
