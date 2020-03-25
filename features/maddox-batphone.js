@@ -4,9 +4,9 @@ export default class MaddoxBatphone {
         const parts = message.getMessageParts();
         parts.forEach(part => {
             if (part.getText().includes("§l[OPEN MENU]")) {
-                command = part.getClickValue().substring(1); //remove the first character since it's a /
+                var command = part.getClickValue().substring(1); //remove the first character since it's a /
                 ChatLib.command(command);
             }
-        }
+        });
     }
 }

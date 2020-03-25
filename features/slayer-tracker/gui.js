@@ -13,7 +13,7 @@ export default class SlayerTrackerGUI {
             if (this.timer % 200 === 0) {
                 this.rainbow++;
             }
-        }
+        });
     }
 
     prettyNumber(x) {
