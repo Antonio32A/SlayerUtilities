@@ -1,5 +1,5 @@
 function scoreboardCheck() {
-    return Scoreboard.getTitle().replace(/§./g, "") === "SKYBLOCK";
+    return Scoreboard.getTitle().replace(/§./g, "") .startsWith("SKYBLOCK");
 }
 
 export { scoreboardCheck }

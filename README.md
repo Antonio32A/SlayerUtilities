@@ -12,6 +12,8 @@ https://www.chattriggers.com/
 
 ### Setup
 
+[Download the repository ZIP](https://github.com/Antonio32A/SlayerUtilities/archive/master.zip) from GitHub and extract it.
+
 Copy this repository folder into your .minecraft/config/ChatTriggers/modules folder.
 It should look like this:
 
