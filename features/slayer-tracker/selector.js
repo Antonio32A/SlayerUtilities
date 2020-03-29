@@ -3,7 +3,7 @@ import { data } from "./tracker.js";
 
 const selector = new RingSelector({
     items: [{
-            name: "&cWolf Packmaster",
+            name: "&cSven Packmaster",
             callback: (_, gui) => {
                 gui.close();
                 data.slayer = "wolf";
