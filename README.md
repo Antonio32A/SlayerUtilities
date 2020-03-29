@@ -76,7 +76,7 @@ and replace the `<key>` with they key you just copied to your clipboard.
 
 * **Antonio32A** - Here
 
-* **Marti157** - [Antonio32A](https://github.com/marti157)
+* **Marti157** - [Marti157](https://github.com/marti157)
 
 ## License
 
