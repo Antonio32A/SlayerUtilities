@@ -74,9 +74,9 @@ and replace the `<key>` with they key you just copied to your clipboard.
 
 ## Authors
 
-* **Antonio32A** - [Antonio32A](https://github.com/Antonio32A)
+* **Antonio32A** - Here
 
-* **Marti157** - Here
+* **Marti157** - [Antonio32A](https://github.com/marti157)
 
 ## License
 
