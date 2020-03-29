@@ -4,6 +4,8 @@ const data = new PVObject("SlayerUtilities", {
     slayer: "wolf",
     trackerX: 5,
     trackerY: 5,
+    key: "",
+    batphone: true,
     wolf: {
         totalXP: 0,
         bossesSlain: 0,
@@ -96,6 +98,9 @@ export default class SlayerTracker {
         if (Scoreboard.getLines().length <= 3) {
             return;
         }
+        if (message.includes(":")) {
+            return;
+        }
         if (message.includes("Talk to Maddox to claim your Wolf Slayer XP!") && Scoreboard.getLineByIndex(3).getName().includes("Sven")) {
             this.onWolfSlayerComplete();
         }
@@ -140,6 +145,26 @@ export default class SlayerTracker {
                     this.data.spider.tarantulaTalisman += 1;
                 } else if (message.includes("Digested Mosquito")) {
                     this.data.spider.digestedMosquito += 1;
+                }
+            }
+        } else if (Scoreboard.getLineByIndex(3).getName().includes("Revenant")) {
+            if (message.includes("RARE DROP!")) {
+                if (message.includes("Foul Flesh")) {
+                    this.data.zombie.foulFlesh += 1;
+                } else if (message.includes("Pestilence Rune")) {
+                    this.data.zombie.pestilenceRune += 1;
+                } else if (message.includes("Enchanted Book")) {
+                    this.data.zombie.enchantedBook += 1;
+                } else if (message.includes("Undead Catalyst")) {
+                    this.data.zombie.undeadCatalyst += 1;
+                } else if (message.includes("Revenant Catalyst")) {
+                    this.data.zombie.revenantCatalyst += 1;
+                } else if (message.includes("Beheaded Horror")) {
+                    this.data.zombie.beheadedHorror += 1;
+                } else if (message.includes("Snake Rune")) {
+                    this.data.zombie.snakeRune += 1;
+                } else if (message.includes("Scythe Blade")) {
+                    this.data.zombie.scytheBlade += 1;
                 }
             }
         }
