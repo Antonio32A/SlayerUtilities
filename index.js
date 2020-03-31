@@ -1,4 +1,4 @@
-import MaddoxBatphone from "./features/maddox-batphone";
+import MaddoxBatphone from "./features/maddox-batphone.js";
 import SlayerTracker from "./features/slayer-tracker/tracker.js";
 import SlayerTrackerGUI from "./features/slayer-tracker/gui.js";
 import { commandHandler } from "./commands/index.js";
