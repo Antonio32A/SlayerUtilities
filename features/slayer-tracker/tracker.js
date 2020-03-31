@@ -138,7 +138,7 @@ export default class SlayerTracker {
                 } else if (message.includes("Enchanted Book")) {
                     this.data.spider.enchantedBook += 1;
                 } else if (message.includes("Spider Catalyst")) {
-                    this.data.spider.catalst += 1;
+                    this.data.spider.catalyst += 1;
                 } else if (message.includes("Fly Swatter")) {
                     this.data.spider.flySwatter += 1;
                 } else if (message.includes("Tarantula Talisman")) {
