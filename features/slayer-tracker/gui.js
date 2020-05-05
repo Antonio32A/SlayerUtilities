@@ -51,7 +51,7 @@ export default class SlayerTrackerGUI {
             this.draw("Digested Mosquito:", data.spider.digestedMosquito, Renderer.LIGHT_PURPLE);
 
         } else if (data.slayer === "zombie") {
-            Renderer.drawRect(this.backgroundColor, this.x-5, this.y-5, Renderer.getStringWidth(prettyNumber(data.spider.totalXP))+114, 98);
+            Renderer.drawRect(this.backgroundColor, this.x-5, this.y-5, Renderer.getStringWidth(prettyNumber(data.zombie.totalXP))+114, 98);
             this.draw("Total XP:", data.zombie.totalXP, Renderer.RED);
             this.draw("Revenants Slain:", data.zombie.bossesSlain, Renderer.GREEN);
             this.draw("Foul Flesh:", data.zombie.foulFlesh, Renderer.BLUE);
